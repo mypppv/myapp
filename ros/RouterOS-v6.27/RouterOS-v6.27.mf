@@ -1,0 +1,3 @@
+SHA1(RouterOS-v6.27-disk1.vmdk)= bdba680be9ed559b0577f491773c515114cf2d3b
+SHA1(RouterOS-v6.27-disk2.vmdk)= 0116c05c80ef2295826234ff242bdb9af86d7287
+SHA1(RouterOS-v6.27.ovf)= 6ca8015f7d8affa844290386ffc687b980515933
