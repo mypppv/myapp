@@ -1,0 +1,1325 @@
+<?xml version="1.0"?>
+<network-scanner-config>
+  <customadurl></customadurl>
+  <mintotray>false</mintotray>
+  <monitorinfo>false</monitorinfo>
+  <termsessions>false</termsessions>
+  <ignored></ignored>
+  <nicvendor>false</nicvendor>
+  <background>false</background>
+  <sortnocase>false</sortnocase>
+  <maxthcount>50</maxthcount>
+  <maxthlimit>1000</maxthlimit>
+  <maxruntime>0</maxruntime>
+  <showdead>false</showdead>
+  <alwaysscan>false</alwaysscan>
+  <randomscan>false</randomscan>
+  <warnmacdup>false</warnmacdup>
+  <macaddr>true</macaddr>
+  <showtime>false</showtime>
+  <getipv6>false</getipv6>
+  <maptype>0</maptype>
+  <hostname>true</hostname>
+  <hosttype>2</hosttype>
+  <reverse>false</reverse>
+  <hostcheck>7</hostcheck>
+  <pshellssl>false</pshellssl>
+  <pshellnop>false</pshellnop>
+  <bmarkname>false</bmarkname>
+  <securewmi>false</securewmi>
+  <nmapinclude></nmapinclude>
+  <nmapexclude></nmapexclude>
+  <scriptfont>9</scriptfont>
+  <devnum>0</devnum>
+  <macparam>
+    <item>
+      <method>0</method>
+      <enabled>true</enabled>
+    </item>
+    <item>
+      <method>1</method>
+      <enabled>false</enabled>
+    </item>
+    <item>
+      <method>2</method>
+      <enabled>false</enabled>
+      <snmpcomm>public</snmpcomm>
+      <snmpcstr></snmpcstr>
+      <snmpaddr></snmpaddr>
+    </item>
+    <item>
+      <method>3</method>
+      <enabled>false</enabled>
+    </item>
+  </macparam>
+  <comments/>
+  <mapnames/>
+  <portgroups>
+    <item>
+      <ident>HTTP和代理</ident>
+      <value>80, 443, 3128, 8080</value>
+    </item>
+    <item>
+      <ident>FTP和SFTP</ident>
+      <value>21, 115</value>
+    </item>
+    <item>
+      <ident>数据库服务器</ident>
+      <value>1433, 3050, 3306, 5432</value>
+    </item>
+    <item>
+      <ident>远程控制</ident>
+      <value>22, 23, 3389, 4899, 5900</value>
+    </item>
+  </portgroups>
+  <mapcolumns/>
+  <ranges>10.0.0.1-10.0.0.255</ranges>
+  <ping>
+    <timeout>1000</timeout>
+    <attempts>1</attempts>
+    <method>2</method>
+    <broadcast>false</broadcast>
+    <arpoutsub>false</arpoutsub>
+    <pingtype>false</pingtype>
+    <timetolive>false</timetolive>
+    <jitter>
+      <enabled>false</enabled>
+      <samples>10</samples>
+    </jitter>
+  </ping>
+  <ports>
+    <tcp>
+      <enabled>false</enabled>
+      <portlist>80</portlist>
+      <getnames>false</getnames>
+    </tcp>
+    <udp>
+      <dns>false</dns>
+      <ntp>false</ntp>
+      <tftp>false</tftp>
+      <nbns>false</nbns>
+      <mssql>false</mssql>
+      <radius>false</radius>
+    </udp>
+    <banner>
+      <enabled>false</enabled>
+      <portlist>21f, 80, 443s, 3128, 8080, 16992</portlist>
+    </banner>
+  </ports>
+  <shares>
+    <enabled>true</enabled>
+    <filter>1</filter>
+    <secinfo>false</secinfo>
+    <checkwrite>false</checkwrite>
+    <diskspace>false</diskspace>
+  </shares>
+  <workstation>
+    <installedapps>false</installedapps>
+    <omitduplogons>false</omitduplogons>
+    <disregardnames>false</disregardnames>
+    <namestoignore></namestoignore>
+    <accounts>false</accounts>
+    <comment>false</comment>
+    <datetime>false</datetime>
+    <diskdrives>false</diskdrives>
+    <langroup>false</langroup>
+    <loggedsids>false</loggedsids>
+    <loggedusers>false</loggedusers>
+    <osversion>false</osversion>
+    <roles>false</roles>
+    <uptime>false</uptime>
+  </workstation>
+  <bookmarks/>
+  <recent></recent>
+  <autoopen>false</autoopen>
+  <history>
+    <item>
+      <data>10.0.0.1-10.0.0.255</data>
+    </item>
+  </history>
+  <remote>
+    <files>
+      <item>
+        <checked>false</checked>
+        <name>Outlook 版本</name>
+        <filename>C:\Program Files\Outlook Express\msimn.exe</filename>
+        <property>2</property>
+      </item>
+    </files>
+    <registry>
+      <item>
+        <checked>false</checked>
+        <name>DirectX版本</name>
+        <keyname>SOFTWARE\Microsoft\DirectX</keyname>
+        <param>version</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Internet Explorer 版本</name>
+        <keyname>SOFTWARE\Microsoft\Internet Explorer</keyname>
+        <param>version</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>CPU 厂商/型号</name>
+        <keyname>HARDWARE\DESCRIPTION\System\CentralProcessor\*</keyname>
+        <param>ProcessorNameString</param>
+        <action>2</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>BIOS 版本</name>
+        <keyname>HARDWARE\DESCRIPTION\System</keyname>
+        <param>SystemBiosVersion</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>注册所有者</name>
+        <keyname>SOFTWARE\Microsoft\Windows NT\CurrentVersion</keyname>
+        <param>RegisteredOwner</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>注册组织</name>
+        <keyname>SOFTWARE\Microsoft\Windows NT\CurrentVersion</keyname>
+        <param>RegisteredOrganization</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>补丁</name>
+        <keyname>SOFTWARE\Microsoft\Windows NT\CurrentVersion</keyname>
+        <param>CSDVersion</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Windows 版本</name>
+        <keyname>SOFTWARE\Microsoft\Windows NT\CurrentVersion</keyname>
+        <param>CurrentVersion</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Windows 类型</name>
+        <keyname>SOFTWARE\Microsoft\Windows NT\CurrentVersion</keyname>
+        <param>ProductName</param>
+        <action>0</action>
+        <root>HKLM</root>
+      </item>
+    </registry>
+    <services>
+      <item>
+        <checked>false</checked>
+        <name>Messenger 状态</name>
+        <service>messenger</service>
+        <property>0</property>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>自动更新状态</name>
+        <service>wuauserv</service>
+        <property>0</property>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>无线配置服务启动类型</name>
+        <service>WZCSVC</service>
+        <property>2</property>
+      </item>
+    </services>
+    <wmi>
+      <item>
+        <checked>false</checked>
+        <name>Windows 名称</name>
+        <query>SELECT Name FROM Win32_OperatingSystem</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>CPU 厂商/型号</name>
+        <query>SELECT Name FROM Win32_Processor</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>内存大小</name>
+        <query>SELECT TotalPhysicalMemory FROM Win32_ComputerSystem</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>计算机型号</name>
+        <query>SELECT Model FROM Win32_ComputerSystem</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>部件号码</name>
+        <query>SELECT PartNumber FROM Win32_SystemEnclosure</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>序列号</name>
+        <query>SELECT SerialNumber FROM Win32_SystemEnclosure</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>服务标签</name>
+        <query>SELECT SMBIOSAssetTag FROM Win32_SystemEnclosure</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>产品注册码</name>
+        <query>SELECT OA3xOriginalProductKey FROM SoftwareLicensingService</query>
+        <namespace>CIMV2</namespace>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>启动时间（秒）</name>
+        <query>SELECT SystemUpTime FROM Win32_PerfFormattedData_PerfOS_System</query>
+        <namespace>CIMV2</namespace>
+      </item>
+    </wmi>
+    <snmp>
+      <item>
+        <checked>false</checked>
+        <name>主机名</name>
+        <oid>1.3.6.1.2.1.1.5.0</oid>
+        <community>public</community>
+        <showcomm>false</showcomm>
+        <version>0</version>
+        <seclevel>0</seclevel>
+        <authtype>0</authtype>
+        <privtype>0</privtype>
+        <username></username>
+        <authpass></authpass>
+        <datapass></datapass>
+        <contname></contname>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>启动时间</name>
+        <oid>1.3.6.1.2.1.1.3.0</oid>
+        <community>public</community>
+        <showcomm>false</showcomm>
+        <version>0</version>
+        <seclevel>0</seclevel>
+        <authtype>0</authtype>
+        <privtype>0</privtype>
+        <username></username>
+        <authpass></authpass>
+        <datapass></datapass>
+        <contname></contname>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>系统描述</name>
+        <oid>1.3.6.1.2.1.1.1.0</oid>
+        <community>public</community>
+        <showcomm>false</showcomm>
+        <version>0</version>
+        <seclevel>0</seclevel>
+        <authtype>0</authtype>
+        <privtype>0</privtype>
+        <username></username>
+        <authpass></authpass>
+        <datapass></datapass>
+        <contname></contname>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>系统联系</name>
+        <oid>1.3.6.1.2.1.1.4.0</oid>
+        <community>public</community>
+        <showcomm>false</showcomm>
+        <version>0</version>
+        <seclevel>0</seclevel>
+        <authtype>0</authtype>
+        <privtype>0</privtype>
+        <username></username>
+        <authpass></authpass>
+        <datapass></datapass>
+        <contname></contname>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>系统未知</name>
+        <oid>1.3.6.1.2.1.1.6.0</oid>
+        <community>public</community>
+        <showcomm>false</showcomm>
+        <version>0</version>
+        <seclevel>0</seclevel>
+        <authtype>0</authtype>
+        <privtype>0</privtype>
+        <username></username>
+        <authpass></authpass>
+        <datapass></datapass>
+        <contname></contname>
+      </item>
+    </snmp>
+    <groups>
+      <item>
+        <checked>false</checked>
+        <name>管理员</name>
+        <member>Administrators</member>
+        <property>0</property>
+        <strip>false</strip>
+        <ignore>false</ignore>
+        <values></values>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>来宾身份</name>
+        <member>Guest</member>
+        <property>2</property>
+        <strip>false</strip>
+        <ignore>false</ignore>
+        <values></values>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>来宾身份</name>
+        <member>Guest</member>
+        <property>3</property>
+        <strip>false</strip>
+        <ignore>false</ignore>
+        <values></values>
+      </item>
+    </groups>
+    <xml>
+      <item>
+        <checked>false</checked>
+        <name>Integrated Lights-Out 序列号</name>
+        <port>17988</port>
+        <path>xmldata?item=All</path>
+        <proto>0</proto>
+        <query>/RIMP/MP/SN</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Integrated Lights-Out 型号</name>
+        <port>17988</port>
+        <path>xmldata?item=All</path>
+        <proto>0</proto>
+        <query>/RIMP/HSI/SPN</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>HTML页面标题</name>
+        <port>80</port>
+        <path></path>
+        <proto>0</proto>
+        <query>&lt;title[^&gt;]*&gt;(.*?)&lt;/title&gt;</query>
+        <parse>1</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>PowerLogic EGX100 序列号</name>
+        <port>80</port>
+        <path>diagnostics.htm</path>
+        <proto>0</proto>
+        <query>Serial Number:[^&gt;]*&lt;/td&gt;\s*&lt;td[^&gt;]*&gt;(\w*)&lt;/td&gt;</query>
+        <parse>1</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Cisco IP Phone CP-79XX 序列号</name>
+        <port>80</port>
+        <path></path>
+        <proto>0</proto>
+        <query>.*Serial Number&lt;/b&gt;&lt;/td&gt;\s*&lt;td[^&gt;]*&gt;\s*&lt;/td&gt;\s*&lt;td[^&gt;]*&gt;&lt;b&gt;([^&lt;]*)</query>
+        <parse>1</parse>
+      </item>
+    </xml>
+    <ssh>
+      <item>
+        <checked>false</checked>
+        <name>系统版本</name>
+        <command>uname -or</command>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>CPU速度</name>
+        <command>lscpu | grep "CPU MHz"</command>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>内存大小</name>
+        <command>cat /proc/meminfo | grep MemTotal</command>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>处理器列表</name>
+        <command>ps -A | awk '{ print $4 }' | uniq | sort</command>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>目录列表</name>
+        <command>ls -1 /</command>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>启动时间</name>
+        <command>uptime</command>
+      </item>
+    </ssh>
+    <performance>
+      <item>
+        <checked>false</checked>
+        <name>启动时间（秒）</name>
+        <query>\System\System Up Time</query>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Windows资源管理器进程 ID</name>
+        <query>\Process(explorer)\ID Process</query>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>进程列表和ID</name>
+        <query>\Process(*)\ID Process</query>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>CPU使用率， %</name>
+        <query>\Processor(_Total)\% Processor Time</query>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>打印任务请求数</name>
+        <query>\Print Queue(*)\Jobs</query>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>网络接口带宽</name>
+        <query>\Network Interface(*)\Current Bandwidth</query>
+      </item>
+    </performance>
+    <scripting>
+      <item>
+        <checked>false</checked>
+        <name>文件列表</name>
+        <lang>0</lang>
+        <script>'List files in Windows
+
+'Input parameters
+strComputer = Input.Current
+
+'List files with WMI
+Set objWMIService = GetObject("winmgmts:" _
+  &amp; "{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2")
+Set colFiles = objWMIService. _
+  ExecQuery("Select * from CIM_DataFile where Path = '\\Windows\\'")
+For Each objFile in colFiles
+  Output.Write objFile.Name 
+Next</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>用户登录时间</name>
+        <lang>0</lang>
+        <script>'Input parameters
+strComputer = Input.Current
+
+'Uncomment this line for specific user 
+'strUser = "domain\user"
+
+'Uncomment this line for specific user
+'strPassword = "password" 
+
+'Constants
+
+wbemImpersonationLevelImpersonate = 3
+wbemAuthenticationLevelPktPrivacy = 6
+
+'Connect to machine
+
+If Not strUser = "" Then
+  'Connect using user and password
+   Set objLocator = CreateObject("WbemScripting.SWbemLocator")
+   Set objWMI = objLocator.ConnectServer _
+    (strComputer, "root\cimv2", strUser, strPassword)
+   objWMI.Security_.ImpersonationLevel = wbemImpersonationLevelImpersonate
+   objWMI.Security_.AuthenticationLevel = wbemAuthenticationLevelPktPrivacy
+Else
+  'Connect using current user
+   Set objWMI = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2") 
+End If
+
+'Get interactive session
+
+Set colSessions = objWMI.ExecQuery _
+("Select * from Win32_LogonSession Where LogonType = 2") 
+If colSessions.Count = 0 Then
+  'No interactive session found
+  Output.Write "No interactive user found"
+Else
+  'Interactive session found
+  For Each objSession in colSessions 
+  Set colList = objWMI.ExecQuery("Associators of " _
+  &amp; "{Win32_LogonSession.LogonId=" &amp; objSession.LogonId &amp; "} " _
+  &amp; "Where AssocClass=Win32_LoggedOnUser Role=Dependent" ) 
+
+  'Show user info
+  For Each objItem in colList
+    Output.Write "User: " &amp; objItem.Name
+    Output.Write "FullName: " &amp; objItem.FullName
+    Output.Write "Domain: " &amp; objItem.Domain
+  Next 
+
+  'Show session start time
+  Output.Write "Start Time: " &amp; objSession.StartTime
+  Next
+End If</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>IP和MAC配置</name>
+        <lang>0</lang>
+        <script>'Display IP configuration
+
+strComputer = Input.Current
+
+Set objWMIService = GetObject("winmgmts:" _
+&amp; "{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2")
+
+Set colAdapters = objWMIService.ExecQuery _
+("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IPEnabled = True")
+
+For Each objAdapter in colAdapters
+  Output.Write "Desc: " &amp; objAdapter.Description
+  Output.Write "HW: " &amp; objAdapter.MACAddress
+  Output.Write "Name: " &amp; objAdapter.DNSHostName
+  
+  If Not IsNull(objAdapter.IPAddress) Then
+    For i = 0 To UBound(objAdapter.IPAddress)
+      Output.Write "IP: " &amp; objAdapter.IPAddress(i)
+    Next
+  End If
+  
+  If Not IsNull(objAdapter.IPSubnet) Then
+    For i = 0 To UBound(objAdapter.IPSubnet)
+      Output.Write "Subnet: " &amp; objAdapter.IPSubnet(i)
+    Next
+  End If
+  
+  If Not IsNull(objAdapter.DefaultIPGateway) Then
+    For i = 0 To UBound(objAdapter.DefaultIPGateway)
+      Output.Write "GW: " &amp; _
+      objAdapter.DefaultIPGateway(i)
+    Next
+  End If
+Next</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>完整登录名称</name>
+        <lang>0</lang>
+        <script>'Input parameters
+strComputer = Input.Current
+
+Set objWMIService = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
+
+'Get those who run Windows Explorer
+Set colItems = objWMIService.ExecQuery _
+  ("Select * from Win32_Process Where Name = 'explorer.exe'")
+
+If colItems.Count = 0 Then
+  Output.Write "No one is logged on to the computer."
+Else
+  For Each objProcess in colItems
+    objProcess.GetOwner strUser,strDomain
+  Next
+End If
+
+Const ADS_SCOPE_SUBTREE = 2
+
+Set objConnection = CreateObject("ADODB.Connection")
+Set objCommand = CreateObject("ADODB.Command")
+objConnection.Provider = "ADsDSOObject"
+objConnection.Open "Active Directory Provider"
+Set objCommand.ActiveConnection = objConnection
+
+'Search Active Directory
+objCommand.Properties("Page Size") = 1000
+objCommand.Properties("Searchscope") = ADS_SCOPE_SUBTREE 
+
+objCommand.CommandText = "SELECT displayName FROM " &amp; _
+  "'LDAP://DC=domain_name,DC=local' WHERE " &amp; _
+    "objectCategory='user' " &amp; _
+    "AND samAccountName = '" &amp; strUser &amp; "'"
+Set objRecordSet = objCommand.Execute
+
+objRecordSet.MoveFirst
+
+'Print all records
+Do Until objRecordSet.EOF
+  Output.Write objRecordSet.Fields("displayName").Value
+  objRecordSet.MoveNext
+Loop</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>本地主机地址</name>
+        <lang>0</lang>
+        <script>'Get all host NICs information
+Set NICs = GetObject("winmgmts:").InstancesOf("Win32_NetworkAdapterConfiguration")
+
+BestAddr = ""
+BestMatch = 0
+
+'Go through the NICs
+For Each NIC in NICs
+  if NIC.IPEnabled then
+    Match = 0
+
+    'Compare target and host address
+    CurrOctets = Split(Input.Current, ".")
+    HostOctets = Split(NIC.IPAddress(0), ".")
+    For i = LBound(CurrOctets) to UBound(CurrOctets)
+      if CurrOctets(i) = HostOctets(i) then
+        Match = Match + 1
+      End if
+    Next
+    if BestMatch &lt; Match then
+      BestMatch = Match
+      BestAddr = NIC.IPAddress(0)
+    End if
+  End if
+Next
+
+'Print out host address
+Output.Write BestAddr</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>检查每个用户快捷键</name>
+        <lang>0</lang>
+        <script>'Get values from "User Accounts" column
+strAccounts = Input.Column("user accounts")
+
+'Get target computer address
+strComputer = "\\" &amp; Input.Current
+
+'Split comma-separated users string
+For each user in split(strAccounts, ",")
+  user = trim(user)
+  Set fso = CreateObject("Scripting.FileSystemObject")
+
+  'Build our path string
+  strPath = strComputer &amp; "\C$\Users\" &amp; user &amp; "\Desktop\Dropbox.lnk"
+
+  'Check file existence
+  If fso.FileExists(strPath) Then
+    Output.Write user &amp; " yes"
+  Else
+    Output.Write user &amp; " no"
+  End If
+Next</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>内置Telnet例子</name>
+        <lang>0</lang>
+        <script>'Retrieve system info via Telnet
+'This example code can be adapted to work
+'with any device that supports the protocol
+
+'Create internal Telnet object
+set objTelnet = Internal.CreateObject("Telnet")
+
+'Set host name and port
+objTelnet.Host = Input.Current
+objTelnet.Port = 23
+
+'Make connection
+objTelnet.Connect
+
+'Wait for login prompt
+objTelnet.WaitFor("login:")
+'Then send login name
+objTelnet.Send("YourUserName" &amp; vbCrLf)
+
+'Wait for password prompt
+objTelnet.WaitFor("password:")
+'Then send password
+objTelnet.Send("YourPassword" &amp; vbCrLf)
+
+'Wait for shell prompt
+objTelnet.WaitFor("xsh&gt;")
+'Then send command
+objTelnet.Send("show sys versions" &amp; vbCrLf)
+
+'Wait for shell prompt (when command finishes)
+data = objTelnet.Recv("xsh&gt;")
+
+'Return data and disconnect
+Output.Write data
+objTelnet.Disconnect</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>内置DNS例子</name>
+        <lang>0</lang>
+        <script>'Resolve a name or IP address via DNS
+'This example performs a reverse lookup
+
+'Create internal DNS object
+set dnsObj = Internal.CreateObject("dns")
+
+'Optionally set DNS server
+'dnsObj.Server = "x.x.x.x"
+
+'Get PTR record for the current IP address
+name = dnsObj.GetName(Input.Current, "ptr")
+
+'Print out resolved name
+Output.Write name</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>显示器信息</name>
+        <lang>0</lang>
+        <script>'Input parameters
+strComputer = Input.Current
+
+'Get monitors with WMI
+Set objWMIService = GetObject("winmgmts:" _
+  &amp; "{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\WMI")
+Set colMonitors = objWMIService. _
+  ExecQuery("SELECT * FROM WmiMonitorID")
+For Each objMonitor in colMonitors
+  'Convert serial number to ASCII
+  SerialNo = ""
+  For I = 0 To Ubound(objMonitor.SerialNumberID)
+    SerialNo = SerialNo &amp; Chr(objMonitor.SerialNumberID(I))
+  Next
+  'Convert model name to ASCII
+  ProductId = ""
+  For I = 0 To Ubound(objMonitor.UserFriendlyName)
+    ProductId = ProductId &amp; Chr(objMonitor.UserFriendlyName(I))
+  Next
+  Output.Write ProductId &amp; " " &amp; SerialNo
+Next</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>数据包丢失</name>
+        <lang>0</lang>
+        <script>'This runs ping.exe captures its output and extracts reported packet loss
+'It can be adapted to execute any console programs and parse their output
+
+'Create process object and execute ping
+Set proc = Internal.CreateObject("process")
+proc.execute("ping.exe " &amp; Input.Current)
+
+'Check ping exit code
+If proc.ExitCode = 0 Then
+
+  'Setup a regex object
+  Set objRegex = New RegExp
+  objRegex.IgnoreCase = True
+  objRegex.Multiline = True
+  objRegex.Global = True
+  'Look for a string like (X% loss)
+  objRegex.Pattern = "\((\d+%\s\w+)\)"
+
+  'Traverse output lines
+  For Each line in proc.output
+    Set matches = objRegex.Execute(line)
+    'Print matching data
+    For Each match in matches
+      Output.Write match.SubMatches(0)
+    Next
+  Next
+Else
+  Output.Write "Exit code " &amp; proc.ExitCode
+End If</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>远程SNMP</name>
+        <lang>0</lang>
+        <script>'Create SNMP object and set target host
+set objSnmp = Internal.CreateObject("snmp")
+objSnmp.Host = Input.Current
+
+'Use version 2 and get sysDescr
+objSnmp.Query.Version = 2
+objSnmp.Query.SetOID("1.3.6.1.2.1.1.1.0")
+If objSnmp.SendRequest then
+  'Success
+  Output.Write objSnmp.Reply.Items(0).Value
+End If
+
+'Now get interface table.
+'In SNMP v2/3 we can use bulk requests
+
+objSnmp.Query.SetOID("1.3.6.1.2.1.2.2.1.2")
+objSnmp.Query.MaxRepetitions = 10
+objSnmp.Query.PDUType = &amp;hA5
+Do While objSnmp.SendRequest
+  'Success
+  For Each Item in objSnmp.Reply.Items
+
+    'Break the loop if found a different OID
+    If InStr(Item.OID, "1.3.6.1.2.1.2.2.1.2") = 0 Then
+      Exit Do
+    End if
+
+    'Write interface name
+    Output.Write Item.Value
+
+    'Continue from the current OID
+    objSnmp.Query.SetOID(Item.OID)
+  Next
+Loop</script>
+      </item>
+    </scripting>
+    <powershell>
+      <item>
+        <checked>false</checked>
+        <name>SQL 服务器版本</name>
+        <script>sqlcmd -Q "select @@version;"</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>最后日志信息</name>
+        <script>Get-EventLog system -newest 5 | Format-Wide -Property Message -Column 1</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>C:\ 中文件列表</name>
+        <script>ls C:\ | Format-Wide -Property Name -Column 1</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>运行的服务</name>
+        <script>Get-Service | Where-Object {$_.status -eq "running"} | Format-Wide -Property Name -Column 1</script>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>产品注册码</name>
+        <script>(Get-WmiObject -query "select * from SoftwareLicensingService").OA3xOriginalProductKey</script>
+      </item>
+    </powershell>
+    <json>
+      <item>
+        <checked>false</checked>
+        <name>Redfish BIOS 版本</name>
+        <port>443</port>
+        <path>redfish/v1/Systems/1/</path>
+        <proto>1</proto>
+        <query>BiosVersion</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Redfish Chassis 序列号</name>
+        <port>443</port>
+        <path>redfish/v1/Chassis/1/</path>
+        <proto>1</proto>
+        <query>SerialNumber</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>Redfish MAC地址</name>
+        <port>443</port>
+        <path>redfish/v1/Systems/1/EthernetInterfaces/?$expand=.</path>
+        <proto>1</proto>
+        <query>Members[*].MACAddress</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>HP iLO 版本</name>
+        <port>443</port>
+        <path>redfish/v1/</path>
+        <proto>1</proto>
+        <query>Oem.Hpe.Manager[0].ManagerFirmwareVersion</query>
+        <parse>0</parse>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>HP iLO System Health</name>
+        <port>443</port>
+        <path>redfish/v1/</path>
+        <proto>1</proto>
+        <query>Oem.Hpe.System[0].Status.Health</query>
+        <parse>0</parse>
+      </item>
+    </json>
+    <nmap>
+      <item>
+        <checked>false</checked>
+        <name>OS检测</name>
+        <scantype>0</scantype>
+        <xpathquery>//osmatch/@name</xpathquery>
+        <osscan-limit>true</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name></script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>设备类型</name>
+        <scantype>0</scantype>
+        <xpathquery>(//osclass/@type)[1]</xpathquery>
+        <osscan-limit>true</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name></script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>服务版本</name>
+        <scantype>1</scantype>
+        <xpathquery>//port[service/@product]/@portid|//port/service[@product]/@product|//port/service[@product]/@version</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name></script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>SSL Heartbleed</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="ssl-heartbleed"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>ssl-heartbleed</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>SSL POODLE</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="ssl-poodle"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>ssl-poodle</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>SSL DROWN</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="sslv2-drown"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>sslv2-drown</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>SMB EternalBlue</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="smb-vuln-ms17-010"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>smb-vuln-ms17-010</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>HTTP服务器时间</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="http-date"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>http-date</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>SSH身份验证方法</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="ssh-auth-methods"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>ssh-auth-methods</script-name>
+        <script-params/>
+      </item>
+      <item>
+        <checked>false</checked>
+        <name>匿名FTP登录</name>
+        <scantype>2</scantype>
+        <xpathquery>//script[@id="ftp-anon"]/@output</xpathquery>
+        <osscan-limit>false</osscan-limit>
+        <osscan-guess>false</osscan-guess>
+        <version-mode>0</version-mode>
+        <script-name>ftp-anon</script-name>
+        <script-params/>
+      </item>
+    </nmap>
+  </remote>
+  <virtualcolumns>
+    <item>
+      <checked>false</checked>
+      <name>数字响应时间</name>
+      <expression>[响应时间]</expression>
+      <matchpattern>^(\d*)</matchpattern>
+      <matchreplace></matchreplace>
+    </item>
+    <item>
+      <checked>false</checked>
+      <name>简单的连接</name>
+      <expression>[MAC地址] [IP地址]</expression>
+      <matchpattern></matchpattern>
+      <matchreplace></matchreplace>
+    </item>
+  </virtualcolumns>
+  <liveinfo>
+    <enabled>false</enabled>
+    <discover>2</discover>
+    <clearoff>true</clearoff>
+    <keepsort>false</keepsort>
+    <usedelay>false</usedelay>
+    <delaymin>5</delaymin>
+    <writefile>false</writefile>
+    <filename></filename>
+    <retained>
+      <item>NIC制造商</item>
+      <item>友好名称</item>
+      <item>最后扫描</item>
+    </retained>
+    <multinotify>
+      <join>
+        <enabled>false</enabled>
+        <sound>
+          <enabled>false</enabled>
+          <filename></filename>
+        </sound>
+        <execute>
+          <enabled>false</enabled>
+          <filename></filename>
+        </execute>
+        <logtofile>
+          <enabled>false</enabled>
+          <filename></filename>
+        </logtofile>
+        <sendemail>
+          <enabled>false</enabled>
+          <recipient></recipient>
+        </sendemail>
+      </join>
+      <leave>
+        <enabled>false</enabled>
+        <sound>
+          <enabled>false</enabled>
+          <filename></filename>
+        </sound>
+        <execute>
+          <enabled>false</enabled>
+          <filename></filename>
+        </execute>
+        <logtofile>
+          <enabled>false</enabled>
+          <filename></filename>
+        </logtofile>
+        <sendemail>
+          <enabled>false</enabled>
+          <recipient></recipient>
+        </sendemail>
+      </leave>
+      <newmac>
+        <enabled>false</enabled>
+        <sound>
+          <enabled>false</enabled>
+          <filename></filename>
+        </sound>
+        <execute>
+          <enabled>false</enabled>
+          <filename></filename>
+        </execute>
+        <logtofile>
+          <enabled>false</enabled>
+          <filename></filename>
+        </logtofile>
+        <sendemail>
+          <enabled>false</enabled>
+          <recipient></recipient>
+        </sendemail>
+      </newmac>
+      <change>
+        <enabled>false</enabled>
+        <sound>
+          <enabled>false</enabled>
+          <filename></filename>
+        </sound>
+        <execute>
+          <enabled>false</enabled>
+          <filename></filename>
+        </execute>
+        <logtofile>
+          <enabled>false</enabled>
+          <filename></filename>
+        </logtofile>
+        <sendemail>
+          <enabled>false</enabled>
+          <recipient></recipient>
+        </sendemail>
+      </change>
+    </multinotify>
+    <email>
+      <smtpserver></smtpserver>
+      <smtpport>25</smtpport>
+      <smtpuser></smtpuser>
+      <smtppass></smtppass>
+      <smtptype>0</smtptype>
+      <sender></sender>
+    </email>
+    <window>
+      <width>460</width>
+      <height>300</height>
+      <left>570</left>
+      <top>300</top>
+    </window>
+  </liveinfo>
+  <auth>
+    <credentials/>
+    <wksta>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </wksta>
+    <wmi>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </wmi>
+    <share>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </share>
+    <shutdown>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </shutdown>
+    <xml>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </xml>
+    <powershell>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </powershell>
+    <ssh>
+      <enabled>true</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </ssh>
+    <json>
+      <enabled>false</enabled>
+      <id>{00000000-0000-0000-0000-000000000000}</id>
+    </json>
+  </auth>
+  <filter>
+    <folder>
+      <enabled>false</enabled>
+      <common>false</common>
+      <printer>false</printer>
+      <writable>false</writable>
+      <restricted>false</restricted>
+      <administrative>false</administrative>
+    </folder>
+    <custom>
+      <visible>false</visible>
+      <recent/>
+    </custom>
+  </filter>
+  <wol>
+    <defaddr>255.255.255.255</defaddr>
+    <defport>30000</defport>
+    <delay>0</delay>
+    <targets/>
+  </wol>
+  <apps>
+    <item>
+      <name>计算机管理</name>
+      <command>mmc.exe compmgmt.msc /computer:%0</command>
+      <hotkey>16461</hotkey>
+      <enabled>true</enabled>
+    </item>
+    <item>
+      <name>远程桌面</name>
+      <command>mstsc.exe /v:%0</command>
+      <hotkey>16466</hotkey>
+      <enabled>true</enabled>
+    </item>
+  </apps>
+  <appvars/>
+  <view>
+    <maximized>false</maximized>
+    <left>164</left>
+    <top>256</top>
+    <width>985</width>
+    <height>500</height>
+    <autoexpand>false</autoexpand>
+    <horlines>false</horlines>
+    <verlines>false</verlines>
+    <multiline>false</multiline>
+    <oddcolor>-16777211</oddcolor>
+    <evencolor>-16777211</evencolor>
+    <highlightcolor>255</highlightcolor>
+    <macseparator>0</macseparator>
+    <foldrepeated>0</foldrepeated>
+    <csvencoding>0</csvencoding>
+    <custcsvdelim>false</custcsvdelim>
+    <csvdelimchar>,</csvdelimchar>
+    <font>
+      <name>Tahoma</name>
+      <charset>0</charset>
+      <color>-16777208</color>
+      <size>8</size>
+      <style>0</style>
+    </font>
+    <shortcuts>
+      <scan>16397</scan>
+      <save>16467</save>
+      <options>16463</options>
+      <find>16454</find>
+      <load>16460</load>
+      <switchipcontrols>9</switchipcontrols>
+      <pasteip>16464</pasteip>
+      <remotewmi>16471</remotewmi>
+      <searchforward>114</searchforward>
+      <assignfriendlyname>113</assignfriendlyname>
+      <filter>16457</filter>
+      <freezecolumns>24649</freezecolumns>
+      <unfreezecolumns>24644</unfreezecolumns>
+      <navigator>112</navigator>
+    </shortcuts>
+  </view>
+  <columns>
+    <item>
+      <width>227</width>
+      <index>1</index>
+    </item>
+  </columns>
+</network-scanner-config>
