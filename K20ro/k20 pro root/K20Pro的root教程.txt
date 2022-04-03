@@ -1,0 +1,15 @@
+1、刷机后，安装Magisk https://github.com/topjohnwu/Magisk
+2、把镜像ROM的boot.img文件提取出来
+3、使用Magisk修补boot.img，recovery方式
+2、进入fastboot模式（电源+音量下按键）
+2、cmd命令进入 platform-tools 文件夹
+3、fastboot flash boot boot.img 输入修补后的boot.img镜像
+4、Root成功
+
+
+#### 以下忽略
+命令 fastboot boot recovery.img  临时进入twrp的recovery模式（如果安装永久的用 fastboot flash recovery recovery.img）
+4、进入recovery后，挂载所有目录，PC中把 Magisk-v20.1.zip放入根目录
+5、recovery中安装
+6、如果安装不了，重启命令 fastboot boot recovery.img 再次进入recovery
+7、挂载所有目录，刷入Magisk-v20.1.zip
